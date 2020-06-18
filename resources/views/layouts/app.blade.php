@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <x-begin-page/>
+    <x-partials.begin-page/>
 </head>
 <body>
     <div id="app">
@@ -61,6 +61,6 @@
         </main>
     </div>
 
-    <x-end-page/>
+    <x-partials.end-page/>
 </body>
 </html>
