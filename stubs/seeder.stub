@@ -11,6 +11,6 @@ class {{ class }} extends Seeder
      */
     public function run()
     {
-        //
+    	factory({{ class }}::class, 1) -> create();
     }
 }
