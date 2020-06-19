@@ -19,12 +19,12 @@
                         Services
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Web</a>
-                        <a class="dropdown-item" href="#">Apps</a>
+                        <a class="dropdown-item" href="#">Item 1</a>
+                        <a class="dropdown-item" href="#">Item 2</a>
                     </div>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">Portafolio</a>
+                    <a class="nav-link" href="#">Item 3</a>
                 </li>
             </ul>
             <ul class="navbar-nav auto">

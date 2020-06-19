@@ -5,7 +5,7 @@
 @section('content')
     <div class="content">
         <div class="title m-b-md">
-            Available Payment Types
+            Text
         </div>
     </div>
 @endsection
