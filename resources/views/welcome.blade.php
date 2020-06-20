@@ -10,7 +10,6 @@
 	            {{ "Small description" }}
 	        </p>
 	    </div>
-
 	    <br>
 	    <div class="row">
 	    	<div class="col-md-12">
@@ -28,5 +27,9 @@
 			    </div>
 			</div>
 	    </div>
-	</div>
+	    <br>
+	    <div class="row">
+	    	<x-partials.contact-us-form/>
+	    </div>
+    </div>
 @endsection
