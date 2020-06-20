@@ -21,7 +21,7 @@
 			    		<ul><!-- Hacer esto usando la magia de bootstrap -->
 			    			<li>Asesoramiento financiero</li>
 			    			<li>Asesoramiento en criptoactivos</li>
-			    			<li>Protecci`on contra la inflaci`on</li>
+			    			<li>Protección contra la inflación</li>
 			    		</ul>
 			    	</div>
 			    </div>

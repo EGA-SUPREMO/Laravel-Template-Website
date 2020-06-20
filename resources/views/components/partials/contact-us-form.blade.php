@@ -18,7 +18,7 @@
 				<div class="form-group">
 					<label for="email">Email</label>
 					<input type="email" class="form-control" id="email" name="email" aria-describedby="email-help" required placeholder="Por favor escribe tu email">
-					<small id="email-help" class="form-text text-muted">As`i podremos responderte</small>
+					<small id="email-help" class="form-text text-muted">Así podremos responderte</small>
                     
                     @error('email')
                         <small class="text-danger">{{ $message }}</small>
