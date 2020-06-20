@@ -12,11 +12,11 @@
         <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="navbar-item active">
-                    <a class="nav-link" href="{{ url('/') }}">Main page</a>
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="navbar-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Services
+                        Servicios
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Item 1</a>
@@ -24,7 +24,7 @@
                     </div>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">Item 3</a>
+                    <a class="nav-link" href="#">Sobre nosotros</a>
                 </li>
             </ul>
             <ul class="navbar-nav auto">
@@ -53,10 +53,10 @@
                 //} else {
                     ?>
                     <li class="navbar-item my-2 my-lg-0">
-                        <a class="nav-link" href="{{ url('/') }}">Register</a>
+                        <a class="nav-link" href="{{ url('/') }}">Ingles</a>
                     </li>
                     <li class="navbar-item my-2 my-lg-0">
-                        <a class="nav-link" href="{{ url('/') }}">Login</a>
+                        <a class="nav-link" href="{{ url('/') }}">Espan[ol</a>
                     </li>
                     <?php
                 //}
