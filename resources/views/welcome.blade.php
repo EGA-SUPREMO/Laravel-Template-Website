@@ -17,11 +17,11 @@
 			    	<div class="card-header">
 			    		Servicios que ofrecemos
 			    	</div>
-			    	<div class="card-body">
-			    		<ul><!-- Hacer esto usando la magia de bootstrap -->
-			    			<li>Asesoramiento financiero</li>
-			    			<li>Asesoramiento en criptoactivos</li>
-			    			<li>Protección contra la inflación</li>
+			    	<div class="card-body no-padding">
+			    		<ul class="list-group list-group-flush">
+			    			<li class="list-group-item">Asesoramiento financiero</li>
+			    			<li class="list-group-item">Asesoramiento en criptoactivos</li>
+			    			<li class="list-group-item">Protección contra la inflación</li>
 			    		</ul>
 			    	</div>
 			    </div>
