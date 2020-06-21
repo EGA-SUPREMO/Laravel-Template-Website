@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #2B2B2B !important;
+}
+.dropdown-menu, .dropdown-item {
+    background-color: #2B2B2B !important;
+}
+.navbar-brand:link, .navbar-brand:visited {
+    color: deepskyblue !important;
+}
+.navbar-brand:hover, .navbar-brand:active {
+    color: white !important;
+}
+.navbar li a:link, .navbar li a:visited {
+    color: white !important;
+}
+.navbar li a:hover, .navbar li a:active {
+    color: deepskyblue !important;
+}
+body{
+    background-image: url('../img/white-waves.png');
+}
+.jumbotron{
+   background-color: deepskyblue !important;
+   color: white !important;
+}
+.card-header{
+   background-color: deepskyblue !important;
+   color: white;
+}
+.card-body{
+    color: #2b2b2b !important;
+}
