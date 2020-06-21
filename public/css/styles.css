@@ -30,3 +30,6 @@ body{
 .card-body{
     color: #2b2b2b !important;
 }
+.no-padding{
+  padding: 0;
+}
