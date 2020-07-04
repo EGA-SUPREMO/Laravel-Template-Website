@@ -1,12 +1,12 @@
 <?php
 
 return [
-	'small description' => 'Dummy text',
+	'small description' => 'Texto descriptivo',
 	'card-header' => 'Servicios que ofrecemos',
 	'card-items' => [
 		'Asesoramiento financiero',
 		'Asesoramiento en criptoactivos',
 		'Protección contra la inflación',
-		'Dummy item 3',
+		'Item de relleno 3',
 	],
 ];
