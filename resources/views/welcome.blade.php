@@ -7,7 +7,7 @@
 	    <div class="jumbotron">
 	        <h1>{{ config('app.name') }}</h1>
 	        <p>
-	            {{ "Small description" }}
+	            {{ __('welcome.small description') }}
 	        </p>
 	    </div>
 	    <br>
@@ -15,13 +15,13 @@
 	    	<div class="col-md-12">
 			    <div class="card">
 			    	<div class="card-header">
-			    		Servicios que ofrecemos
+			    		{{ __('welcome.card-header') }}
 			    	</div>
 			    	<div class="card-body no-padding">
 			    		<ul class="list-group list-group-flush">
-			    			<li class="list-group-item">Asesoramiento financiero</li>
-			    			<li class="list-group-item">Asesoramiento en criptoactivos</li>
-			    			<li class="list-group-item">Protección contra la inflación</li>
+			    			@foreach(__('welcome.card-items') as $cardItem)
+			    				<li class="list-group-item">{{ $cardItem }}</li>
+			    			@endforeach
 			    		</ul>
 			    	</div>
 			    </div>
