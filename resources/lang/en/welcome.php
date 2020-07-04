@@ -2,7 +2,7 @@
 
 return [
 	'small description' => 'Dummy text',
-	'card-header' => 'Dummy header'
+	'card-header' => 'Dummy header',
 	'card-items' => [
 		'Dummy item 1',
 		'Dummy item 2',
