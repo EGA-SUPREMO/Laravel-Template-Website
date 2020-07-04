@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'small description' => 'Dummy text',
+	'small description' => 'Dummy description',
 	'card-header' => 'Dummy header',
 	'card-items' => [
 		'Dummy item 1',
