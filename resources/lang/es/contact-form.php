@@ -1,7 +1,6 @@
 <?php
 
 return [
-	'small description' => 'Texto descriptivo',
 	'card-header' => 'Contactanos',
 	'name' => 'Nombre',
 	'name-helper' => 'Para saber quien eres.',
