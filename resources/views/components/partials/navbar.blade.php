@@ -12,19 +12,20 @@
         <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="navbar-item active">
-                    <a class="nav-link" href="{{ url('/') }}">Main page</a>
+                    <a class="nav-link" href="{{ url()->current() }}">{{ __('navbar.home') }}</a>
                 </li>
                 <li class="navbar-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Services
+                        {{ __('navbar.service') }}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Item 1</a>
-                        <a class="dropdown-item" href="#">Item 2</a>
+                    	@foreach(__('navbar.service-items') as $serviceItem)
+                        	<a class="dropdown-item" href="#">{{ $serviceItem }}</a>
+                        @endforeach
                     </div>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">Item 3</a>
+                    <a class="nav-link" href="#">{{ __('navbar.about-us') }}</a>
                 </li>
             </ul>
             <ul class="navbar-nav auto">
@@ -53,10 +54,10 @@
                 //} else {
                     ?>
                     <li class="navbar-item my-2 my-lg-0">
-                        <a class="nav-link" href="{{ url('/') }}">Register</a>
+                        <a class="nav-link" href="{{ url('/en') }}">{{ __('navbar.en') }}</a>
                     </li>
                     <li class="navbar-item my-2 my-lg-0">
-                        <a class="nav-link" href="{{ url('/') }}">Login</a>
+                        <a class="nav-link" href="{{ url('/es') }}">{{ __('navbar.es') }}</a>
                     </li>
                     <?php
                 //}
