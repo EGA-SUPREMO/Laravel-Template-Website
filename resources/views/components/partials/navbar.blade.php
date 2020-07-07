@@ -12,7 +12,7 @@
         <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="navbar-item active">
-                    <a class="nav-link" href="{{ url('/') }}">{{ __('navbar.home') }}</a>
+                    <a class="nav-link" href="{{ url()->current() }}">{{ __('navbar.home') }}</a>
                 </li>
                 <li class="navbar-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
