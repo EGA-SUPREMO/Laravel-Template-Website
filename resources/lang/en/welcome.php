@@ -1,12 +1,11 @@
 <?php
 
 return [
-	'small description' => 'Dummy description',
-	'card-header' => 'Dummy header',
+	'small description' => 'This is a work in progress website, for that reason some features are\'nt available right now.',
+	'card-header' => 'Services we offer',
 	'card-items' => [
-		'Dummy item 1',
-		'Dummy item 2',
-		'Dummy item 3',
-		'Dummy item 3',
+		'Financial advice',
+		'Advice on crypto assets',
+		'Protection against inflation',
 	],
 ];
