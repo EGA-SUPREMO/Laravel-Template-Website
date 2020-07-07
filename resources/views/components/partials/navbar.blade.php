@@ -53,10 +53,10 @@
                 //} else {
                     ?>
                     <li class="navbar-item my-2 my-lg-0">
-                        <a class="nav-link" href="{{ url('/') }}">Ingles</a>
+                        <a class="nav-link" href="{{ url('/en') }}">Ingles</a>
                     </li>
                     <li class="navbar-item my-2 my-lg-0">
-                        <a class="nav-link" href="{{ url('/') }}">Espan[ol</a>
+                        <a class="nav-link" href="{{ url('/es') }}">Español</a>
                     </li>
                     <?php
                 //}
