@@ -14,11 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-	return redirect('/en');
+       return redirect('/en');
 });
 
 Route::get('/{lang}', function ($lang) {
 	App::setLocale($lang);
 
     return view('welcome');
+});
+
+Route::post('/{lang}', function ($lang) {
+	App::setLocale($lang);
+
+    return view('welcome', ['message' => 'Sorry, this function isn\'t available right now.']);
 });
