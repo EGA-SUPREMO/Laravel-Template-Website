@@ -4,13 +4,17 @@
 
 @section('content')
 	<div class="container">
+		@if(isset($message))
+		    <div class="alert alert-danger" role="alert">
+		    	<small class="text-danger">{{ $message }}</small>
+		    </div>
+	    @endif
 	    <div class="jumbotron">
 	        <h1>{{ config('app.name') }}</h1>
 	        <p>
 	            {{ __('welcome.small description') }}
 	        </p>
 	    </div>
-	    <br>
 	    <div class="row">
 	    	<div class="col-md-12">
 			    <div class="card">

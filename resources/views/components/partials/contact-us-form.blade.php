@@ -4,7 +4,7 @@
             {{ __('contact-form.card-header') }}
         </div>
         <div class="card-body">
-        	<form class="form-contact-us" method="post" action="#">
+        	<form class="form-contact-us" method="post" action="{{ url()->current() }}">
         		@csrf
 				<div class="form-group">
 					<label for="name">{{ __('contact-form.name') }}</label>
