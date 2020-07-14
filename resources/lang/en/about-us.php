@@ -2,6 +2,6 @@
 
 return [
 	'card-header' => 'About us',
-    'card-body' => '',
+    'card-body' => 'We are',
 	'contact' => '',
 ];

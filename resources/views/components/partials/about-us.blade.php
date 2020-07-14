@@ -4,7 +4,9 @@
             {{ __('about-us.card-header') }}
         </div>
         <div class="card-body">
-            @foreach(__('about-us.card-body')
+            {{ __('about-us.card-body') }}
+            <hr>
+            Whatsapp: +58 426 2464 450
         </div>
     </div>
 </div>

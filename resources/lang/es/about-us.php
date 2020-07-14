@@ -2,5 +2,5 @@
 
 return [
 	'card-header' => 'Sobre nosotros',
-    'card-body' => '',
+    'card-body' => 'Somos ...',
 ];
