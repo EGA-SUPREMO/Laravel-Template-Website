@@ -17,7 +17,13 @@
     color: deepskyblue !important;
 }
 body{
-    background-image: url('../img/white-waves.png');
+    background-image: url("../storage/images/bg-01.jpg");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
 }
 .jumbotron{
     background-image: url("../storage/images/jumbotron-bg.jpg");
