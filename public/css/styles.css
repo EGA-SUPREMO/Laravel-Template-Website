@@ -20,8 +20,9 @@ body{
     background-image: url('../img/white-waves.png');
 }
 .jumbotron{
-   background-color: deepskyblue !important;
-   color: white !important;
+    background-image: url("../storage/images/jumbotron-bg.jpg");
+    color: white !important;
+    background-size: cover;
 }
 .card-header{
    background-color: deepskyblue !important;
