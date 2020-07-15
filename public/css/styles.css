@@ -28,6 +28,7 @@ body{
 .jumbotron{
     background-image: url("../storage/images/jumbotron-bg.jpg");
     color: white !important;
+    background-position:center;
     background-size: cover;
 }
 .card-header{
