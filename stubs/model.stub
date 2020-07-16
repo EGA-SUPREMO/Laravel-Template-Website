@@ -12,5 +12,10 @@ class {{ class }} extends Model
      * @var array
      */
     protected $guarded = [];
+
+    public function path()
+    {
+        return url('/'.{{ class }}.'/'. $this->id);
+    }
     
 }

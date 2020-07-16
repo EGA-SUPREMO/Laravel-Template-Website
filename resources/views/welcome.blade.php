@@ -33,6 +33,10 @@
 	    </div>
 	    <br>
 	    <div class="row">
+	    	<x-partials.about-us/>
+	    </div>
+	    <br>
+	    <div class="row">
 	    	<x-partials.contact-us-form/>
 	    </div>
     </div>
