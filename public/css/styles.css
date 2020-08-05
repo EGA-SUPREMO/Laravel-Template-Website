@@ -17,7 +17,7 @@
     color: deepskyblue !important;
 }
 body{
-    background-image: url("../bg-01.jpg");
+    background-image: url("../bg-01.webp");
     background-repeat:no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -26,7 +26,7 @@ body{
     background-position:center;
 }
 .jumbotron{
-    background-image: url("../jumbotron-bg.jpg");
+    background-image: url("../jumbotron-bg.webp");
     color: white !important;
     background-position:center;
     background-size: cover;
